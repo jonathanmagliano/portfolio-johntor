@@ -38,7 +38,7 @@ def Card(image, title, description, link, badge, git):
                             ]
                         ),
                         html.A(
-                            html.I(className="fab fa-github font-sm terciary"),
+                            html.I(className="fas fa-link font-sm terciary"),
                             href=git,
                             target="_blank",
                         ),
