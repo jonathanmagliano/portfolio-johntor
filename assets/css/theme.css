@@ -4,11 +4,11 @@
 :root[data-theme='dark'] {  
     --primaryBg: #fff;
     --secondaryBg: #f5f5f5;
-    --navColor: #2B7279;
+    --navColor: #333;
     --default: #232323;
     --defaultInverse: #fff;
-    --primary: #2B7279;
-    --secondary: #d0692d;
+    --primary: #333;
+    --secondary: #fa985f;
     --terciary: #C75246;
   }
   
@@ -18,7 +18,7 @@
     --navColor: #333;
     --default: #fff;
     --defaultInverse: #232323;
-    --primary: #77AEB3;
+    --primary: #fff;
     --secondary: #EDC575;
     --terciary: #ED8075;
   }
