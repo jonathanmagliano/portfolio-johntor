@@ -7,7 +7,7 @@ def About():
             html.Div(
                 [
                     html.H4(
-                        "ABOUT", className="font-xl bold letter_spac8 default_inverse"
+                        "SOBRE", className="font-xl bold letter_spac8 default_inverse"
                     ),
                     html.Div(
                         [
