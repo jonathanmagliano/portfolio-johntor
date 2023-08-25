@@ -36,8 +36,8 @@ app = dash.Dash(
 
 app.title = "JohnTor | Portfolio"
 
-
-app.index_string = """<!DOCTYPE html>
+"""
+app.index_string = <!DOCTYPE html>
 <html>
     <head>
         {%metas%}
@@ -58,7 +58,8 @@ app.index_string = """<!DOCTYPE html>
             {%renderer%}
         </footer>
     </body>
-</html>"""
+</html>
+"""
 
 
 server = app.server
@@ -67,4 +68,4 @@ app.layout = Homepage()
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)

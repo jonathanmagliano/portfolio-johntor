@@ -29,6 +29,63 @@ def About():
                                         lg=9,
                                         sm=12,
                                     ),
+                                    dbc.Col(
+                                        [
+                                            dbc.Row(
+                                                [
+                                                    dbc.Col(
+                                                        [
+                                                            html.I(className="fab fa-linkedin-in padding16"),
+                                                            html.Span("+"),
+                                                            html.I(className="fas fa-at padding16"),
+                                                        ],
+                                                        width=12,
+                                                        className="font-lg",
+                                                    ),
+                                                    dbc.Col(
+                                                        [
+                                                            dbc.Row(
+                                                                [
+                                                                    dbc.Col("Conexões", lg=6),
+                                                                    dbc.Col("100+", className="bold font-md", lg=6),
+                                                                ]
+                                                            ),
+                                                        ],
+                                                        lg=12,
+                                                        width=4,
+                                                    ),
+                                                    dbc.Col(
+                                                        [
+                                                            dbc.Row(
+                                                                [
+                                                                    dbc.Col("Aplicações", lg=6),
+                                                                    dbc.Col("10+", className="bold font-md", lg=6),
+                                                                ]
+                                                            ),
+                                                        ],
+                                                        lg=12,
+                                                        width=4,
+                                                    ),
+                                                    dbc.Col(
+                                                        [
+                                                            dbc.Row(
+                                                                [
+                                                                    dbc.Col("Setores", lg=6),
+                                                                    dbc.Col("10+", className="bold font-md", lg=6),
+                                                                ]
+                                                            ),
+                                                        ],
+                                                        lg=12,
+                                                        width=4,
+                                                    ),
+                                                ],
+                                                className="text-center",
+                                            ),
+                                        ],
+                                        className="git_kag",
+                                        lg=3,
+                                        sm=12,
+                                    ),
                                 ]
                             ),
                             dbc.Row(
