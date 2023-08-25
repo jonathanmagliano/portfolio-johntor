@@ -12,7 +12,7 @@ portfolio_data = [
         ],
     },
     {
-        "image": "../assets/images/python.png",
+        "image": "../assets/images/atelier.png",
         "title": "Desenvolvimento de website",
         "description": "Desenvolvimento web. Site landing page no segmento atelier de vestidos.",
         "link": "https://web.archive.org/web/20230825152909/https://ateliergisafernandes.com.br/",
