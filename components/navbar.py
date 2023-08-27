@@ -16,7 +16,9 @@ def Navbar():
                             )
                         )
                     ),
-                    html.Div(dtc.ThemeToggle()),
+                    html.Div(dtc.ThemeToggle(
+                        tooltip_text="Modo Light/Dark"
+                    )),
                 ],
                 className="container flex_row_btw",
             ),
