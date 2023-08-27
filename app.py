@@ -36,36 +36,38 @@ app = dash.Dash(
 
 app.title = "JohnTor | Portfolio"
 
-"""
-app.index_string = <!DOCTYPE html>
+app.index_string = """
+<!DOCTYPE html>
 <html>
     <head>
         {%metas%}
         <title>{%title%}</title>
         {%favicon%}
         {%css%}
-      
-        <div class="sharethis-inline-reaction-buttons"></div>
-        <script type='text/javascript' src='https://platform-api.sharethis.com/js/' async='async'></script>
-        <script async src="https://www.googletagmanager.com/gtag/"></script>
-        <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="" data-description="Help to keep building web apps for free;" data-message="Thank you for visiting. You can support the projects here." data-color="#FF813F" data-position="" data-x_margin="50" data-y_margin="18"></script>
-        </head>
-    <body>
-        {%app_entry%}
-        <footer>
-            {%config%}
-            {%scripts%}
-            {%renderer%}
-        </footer>
-    </body>
+
+        <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="johntor" data-description="Buy me a coffee!" data-message="Obrigado pela visita. Aceito um café." data-color="#C75246" data-position="" data-x_margin="50" data-y_margin="18"></script>
+    
+    </head>
+<body>
+    {%app_entry%}
+    <footer>
+        {%config%}
+        {%scripts%}
+        {%renderer%}
+    </footer>
+</body>
 </html>
 """
 
+"""
+        #<div class="sharethis-inline-reaction-buttons"></div>
+        #<script type='text/javascript' src='https://platform-api.sharethis.com/js/' async='async'></script>
+        #<script async src="https://www.googletagmanager.com/gtag/"></script>
+"""
 
 server = app.server
 
 app.layout = Homepage()
-
 
 if __name__ == "__main__":
     app.run_server(debug=False)
