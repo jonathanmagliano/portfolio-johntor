@@ -101,7 +101,7 @@ def About():
                                             ),
                                             html.Div(
                                                 html.A(
-                                                    html.I(className="fas fa-at"),
+                                                    html.I(className="fas fa-briefcase"),
                                                     href="https://www.upwork.com/ab/flservices/workwith/johntor",
                                                     target="_blank",
                                                 )

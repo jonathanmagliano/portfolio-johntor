@@ -49,7 +49,7 @@ def Footer():
                                                 html.A(
                                                     [
                                                         html.I(
-                                                            className="fas fa-at"
+                                                            className="fas fa-briefcase"
                                                         ),
                                                         html.Span(
                                                             " faça a proposta de trabalho pela Upwork"
