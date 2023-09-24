@@ -4,7 +4,7 @@ portfolio_data = [
         "title": "Desenvolvimento de website",
         "description": "Desenvolvimento web. Site landing page no segmento atelier de vestidos.",
         "link": "https://web.archive.org/web/20230825152909/https://ateliergisafernandes.com.br/",
-        "git": "#",
+        "git": "https://web.archive.org/web/20230825152909/https://ateliergisafernandes.com.br/",
         "badge": [
             "WordPress",
             "Elementor",
@@ -16,7 +16,7 @@ portfolio_data = [
         "title": "Dashboards | API",
         "description": "Dashboards | API | Cloud | Data-driven | Analytics",
         "link": "https://github.com/jonathanmagliano",
-        "git": "#",
+        "git": "https://github.com/jonathanmagliano",
         "badge": [
             "API",
             "Ruby on Rails",
