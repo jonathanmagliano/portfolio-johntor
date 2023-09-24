@@ -1,21 +1,5 @@
 portfolio_data = [
     {
-        "image": "../assets/images/dashboards.png",
-        "title": "Dashboards | API",
-        "description": "Dashboards | API | Cloud | Data-driven | Analytics",
-        "link": "https://github.com/jonathanmagliano",
-        "git": "#",
-        "badge": [
-            "API",
-            "Ruby",
-            "Ruby on Rails",
-            "Python",
-            "Pandas",
-            "Dash",
-            "AWS"
-        ],
-    },
-    {
         "image": "../assets/images/atelier.png",
         "title": "Desenvolvimento de website",
         "description": "Desenvolvimento web. Site landing page no segmento atelier de vestidos.",
@@ -26,6 +10,19 @@ portfolio_data = [
             "Elementor",
             "Web Dev"
         ],
+    },
+    {
+        "image": "../assets/images/dashboards.png",
+        "title": "Dashboards | API",
+        "description": "Dashboards | API | Cloud | Data-driven | Analytics",
+        "link": "https://github.com/jonathanmagliano",
+        "git": "#",
+        "badge": [
+            "API",
+            "Ruby on Rails",
+            "Python",
+            "Dash",
+            "AWS"
+        ],
     }
-
 ]
