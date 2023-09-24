@@ -1,18 +1,5 @@
 portfolio_data = [
     {
-        "image": "../assets/images/technology.gif",
-        "title": "Data Analytics",
-        "description": "Infraestrutura de dados na nuvem",
-        "link": "#",
-        "git": "#",
-        "badge": [
-            "Database",
-            "AWS",
-            "Azure",
-            "Python"
-        ],
-    },
-    {
         "image": "../assets/images/dashboards.png",
         "title": "Dashboard",
         "description": "Dashboard",
